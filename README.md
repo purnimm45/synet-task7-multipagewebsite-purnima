@@ -11,14 +11,8 @@
 The goal of this project was to build a clean, responsive multi-page personal portfolio website as part of my internship task. I wanted something that actually represents my skills and projects honestly — not just a template, but a site that feels like mine. It covers who I am, what I have worked on during my BCA, and how someone can reach me.
 
 
-**Pages**
-
-| File         | Page    | What it contains                                       |
-| index.html   | Home    |  Introduction, skill preview cards, CTA section        |
-| about.html   | About   | Bio, skill progress bars, education timeline, projects |
-| services.html| Services| 6 service cards, how I work steps, tech stack list     |
-| contact.html | Contact | Contact details, working message form with validation  |
-| style.css    | Styles  | All CSS for every page — shared nav, footer, layout    |
+Pages
+FilePageWhat it containsindex.htmlHomeIntroduction, skill preview cards, CTA sectionabout.htmlAboutBio, skill progress bars, education timeline, projectsservices.htmlServices6 service cards, how I work steps, tech stack listcontact.htmlContactContact details, working message form with validationstyle.cssStylesAll CSS for every page — shared nav, footer, layout
 
 **Tools Used**
 
@@ -63,7 +57,6 @@ portfolio/
 ├── services.html
 ├── contact.html
 └── style.css
-
 
 ## Outcome
 
