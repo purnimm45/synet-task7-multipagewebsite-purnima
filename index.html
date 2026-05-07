@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | TechFolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">Tech<span>Folio</span></a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-inner">
+    <p class="hero-badge">BCA Student · 2022–2026</p>
+
+    <h1>
+      Building <span>Secure</span><br />
+      &amp; Scalable Tech<br />Solutions
+    </h1>
+
+    <p>
+      I'm a final-year BCA student focused on database management,
+      network security, and web development. Currently looking for
+      an internship to apply what I've learned in a real environment.
+    </p>
+
+    <div class="hero-btns">
+      <a href="services.html" class="btn btn-fill">Explore My Work</a>
+      <a href="contact.html"  class="btn btn-outline">Get In Touch</a>
+    </div>
+
+    <div class="hero-stats">
+      <div>
+        <h3>5+</h3>
+        <p>Projects Done</p>
+      </div>
+      <div>
+        <h3>6+</h3>
+        <p>Technologies</p>
+      </div>
+      <div>
+        <h3>2026</h3>
+        <p>Graduating Year</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES PREVIEW -->
+<section class="section">
+  <div class="wrap">
+    <span class="tag">What I Do</span>
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <p class="section-sub">
+      Core areas I've worked on through my BCA coursework and personal projects.
+    </p>
+
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🗄️</div>
+        <h3>Database Management</h3>
+        <p>Designing normalised schemas, writing SQL queries, and managing data using MySQL and PostgreSQL.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔒</div>
+        <h3>Network Security</h3>
+        <p>Analysing traffic with Wireshark, setting firewall rules, and applying encryption protocols.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3>Web Development</h3>
+        <p>Building responsive websites from scratch using HTML5, CSS3, and vanilla JavaScript.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚙️</div>
+        <h3>Backend Development</h3>
+        <p>Developing server-side logic using PHP to create secure APIs and handle dynamic database interactions.</p>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:36px;">
+      <a href="services.html" class="btn btn-outline">See All Services →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="cta-box">
+      <h2>Open to Internship Opportunities</h2>
+      <p>I'm actively looking for a role where I can contribute and grow inside a real tech team.</p>
+      <div class="cta-btns">
+        <a href="contact.html" class="btn btn-fill">Contact Me</a>
+        <a href="about.html"   class="btn btn-outline">About Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Tech<span>Folio</span></a>
+        <p>BCA internship portfolio — database, security, and web development.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://github.com/purnimm45">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/purnima-tamang-86b327308/">LinkedIn</a></li>
+          <li><a href="mailto:purnimatamang0077@gmail.com">Email Me</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 TechFolio. Built for BCA Internship Task.</p>
+      <p>HTML · CSS · JavaScript</p>
+    </div>
+  </div>
+</footer>
+
+<!-- NAV TOGGLE JS -->
+<script>
+  var btn   = document.getElementById('hamburger');
+  var links = document.getElementById('navLinks');
+
+  btn.addEventListener('click', function () {
+    links.classList.toggle('open');
+  });
+
+  links.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      links.classList.remove('open');
+    });
+  });
+</script>
+
+</body>
+</html>
