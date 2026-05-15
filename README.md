@@ -1,16 +1,47 @@
-# TechFolio — Personal Portfolio Website
+# synent-task7-multipage-website-purnimatamang
 
-**Name:** Purnima Tamang  
-**College:** Sagarmatha College of Science and Technology, Lalitpur  
-**Program:** Bachelor of Computer Applications (BCA) — 4th Year  
-**Email:** purnimatamang0077@gmail.com  
-**GitHub:** https://github.com/purnimm45  
+**Name:** Purnima Tamang
+**Email:** purnimatamang0077@gmail.com
+**College:** Sagarmatha College of Science and Technology, Lalitpur
+**Program:** BCA — 4th Year (2022–2026)
+**GitHub:** https://github.com/purnimm45
+**LinkedIn:** https://www.linkedin.com/in/purnima-tamang-86b327308/
+**Domain:** Web Development
+**Task:** Task 7 — Multi-Page Portfolio Website
 
 ---
 
 ## Objective
 
-The goal of this project was to build a clean, responsive multi-page personal portfolio website as part of my internship task. I wanted something that actually represents my skills and projects honestly — not just a template, but a site that feels like mine. It covers who I am, what I have worked on during my BCA, and how someone can reach me.
+Build a fully functional, responsive, multi-page portfolio website with four pages — Home, About, Services, and Contact — sharing a consistent navigation bar and footer. Written in plain HTML, CSS, and JavaScript with no frameworks.
+
+---
+
+## Demo Video
+
+▶️ **https://youtu.be/UZnxUHFitvs**
+
+---
+
+## Screenshots
+
+### Home Page — Desktop
+![Home Desktop](screenshots/01-home-desktop.png)
+
+### Home Page — Mobile
+![Home Mobile](screenshots/02-home-mobile.png)
+
+### About Page — Skill Bars
+![About Skills](screenshots/03-about-skills.png)
+
+### Services Page — Cards
+![Services Cards](screenshots/04-services-cards.png)
+
+### Contact Page — Form
+![Contact Form](screenshots/05-contact-form.png)
+
+### Contact Page — Validation
+![Contact Validation](screenshots/06-contact-form-validation.png)
 
 ---
 
@@ -18,75 +49,105 @@ The goal of this project was to build a clean, responsive multi-page personal po
 
 | File | Page | What it contains |
 |------|------|-----------------|
-| `index.html` | Home | Introduction, skill preview cards, CTA section |
-| `about.html` | About | Bio, skill progress bars, education timeline, projects |
-| `services.html` | Services | 6 service cards, how I work steps, tech stack list |
-| `contact.html` | Contact | Contact details, working message form with validation |
-| `style.css` | Styles | All CSS for every page — shared nav, footer, layout |
+| `index.html` | Home | Hero section, 4 skill cards, CTA banner |
+| `about.html` | About | Bio, animated skill bars, education and project timeline |
+| `services.html` | Services | 6 service cards, How I Work steps, tech stack pills |
+| `contact.html` | Contact | Contact info panel, form with JS validation |
+| `style.css` | All pages | Single shared stylesheet for every page |
 
 ---
 
 ## Tools Used
 
 - **HTML5** — page structure and semantic markup
-- **CSS3** — layout (Flexbox, Grid), custom properties, animations
-- **Vanilla JavaScript** — mobile nav toggle, skill bar scroll animation, form validation
-- **Google Fonts** — Poppins (headings) and Open Sans (body)
-- **Git & GitHub** — version control and hosting
+- **CSS3** — Flexbox, Grid, CSS variables, animations
+- **Vanilla JavaScript** — hamburger toggle, scroll-triggered skill bars, form validation
+- **Google Fonts** — Poppins (headings), Open Sans (body)
+- **Git and GitHub** — version control, 6 commits
 - **VS Code** — code editor
+- **Chrome DevTools** — responsive testing
 
-No frameworks. No Bootstrap. No Tailwind. Written from scratch.
+No Bootstrap. No Tailwind. No jQuery. Written from scratch.
 
 ---
 
-## Steps I Followed
+## Steps Performed
 
-1. Planned the layout on paper first — decided on 4 pages and what each one needs
-2. Set up the project folder and created `style.css` with all the base styles, nav, and footer
-3. Built `index.html` with the hero section, skill preview cards, and CTA
-4. Built `about.html` with my actual bio, real project names (PawBliss, SewaSathi), and animated skill bars
-5. Built `services.html` with 6 cards matching the subjects I actually studied — Java, .NET, Network Security, Web Dev, Database, CMS
-6. Built `contact.html` with a working form that validates input before showing a success message
-7. Tested all pages in the browser, fixed spacing issues on mobile
-8. Wrote this README and pushed everything to GitHub
+1. Planned layout and colour scheme on paper before writing any code
+2. Wrote `style.css` first — CSS variables, nav, footer, all shared utilities
+3. Built `index.html` — hero, skill cards, CTA banner
+4. Built `about.html` — bio, animated skill bars using IntersectionObserver, education and project cards
+5. Built `services.html` — 6 service cards, How I Work section, tech stack pills
+6. Built `contact.html` — contact info panel, form with JavaScript validation
+7. Tested all pages on desktop and mobile in Chrome DevTools
+8. Took 6 screenshots, wrote README and report, pushed everything to GitHub
 
 ---
 
 ## Features
 
-- Sticky navigation bar with active page highlight
-- Hamburger menu for mobile screens
-- Skill progress bars that animate when you scroll to them
-- Contact form with basic validation (checks empty fields and email format)
-- Consistent header and footer across all pages
-- Fully responsive — works on phone, tablet, and desktop
+- Sticky navbar with active page highlight
+- Hamburger menu for screens below 700px
+- Skill bars that animate on scroll using IntersectionObserver API
+- Contact form validates empty fields and email format before submitting
+- Consistent nav and footer across all 4 pages
+- Responsive at 900px, 700px, and 480px breakpoints
+
+---
+
+## Project Structure
+
+```
+synent-task7-multipage-website-purnimatamang/
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
+├── style.css
+├── README.md
+├── report
+└── screenshots/
+    ├── 01-home-desktop.png
+    ├── 02-home-mobile.png
+    ├── 03-about-skills.png
+    ├── 04-services-cards.png
+    ├── 05-contact-form.png
+    └── 06-contact-form-validation.png
+```
 
 ---
 
 ## How to Run
 
-1. Download or clone the repository
-2. Make sure all 5 files are in the same folder
-3. Open `index.html` in any browser
-4. No server needed — it runs as plain HTML
-
-```
-portfolio/
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
-└── style.css
+```bash
+git clone https://github.com/purnimm45/synent-task7-multipage-website-purnimatamang.git
 ```
 
+Then open `index.html` in any browser — no server needed.
+
+---
+
+## Git Commit History
+
+| # | Commit Message |
+|---|----------------|
+| 1 | add global stylesheet with nav, footer and base layout |
+| 2 | add home page with hero section and skill preview cards |
+| 3 | add about page with bio, skill bars and education timeline |
+| 4 | add services page with 6 cards, how I work steps and tech stack |
+| 5 | add contact page with info panel and form validation |
+| 6 | add README, report and screenshots folder |
+
+These are not only the commits I have. I have multiples of them because I kept reediting them. 
 ---
 
 ## Outcome
 
-I ended up with a fully working 4-page website that I can actually show to someone. It has my real information, my real projects (PawBliss and SewaSathi), and the skills I have genuinely worked on during my BCA. The site loads fast, looks decent on mobile, and the contact form works properly with validation.
+Fully working 4-page portfolio site with my real information, real projects (PawBliss and SewaSathi), and skills I genuinely worked on during my BCA. The site is responsive, fast, and the contact form validates properly.
 
-The biggest thing I learned from this task was how much you can do with just HTML, CSS, and a little JavaScript — no framework needed if you understand the basics well enough.
+The biggest thing I learned was how much you can do with just HTML, CSS, and a small amount of JavaScript once you understand the fundamentals — no framework needed.
 
 ---
 
-*Built as part of BCA Internship Task — May 2025*
+*Submitted for Synent Technologies Internship — Task 7*
+*Purnima Tamang | purnimatamang0077@gmail.com | 2026*
