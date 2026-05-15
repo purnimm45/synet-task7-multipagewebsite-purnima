@@ -1,0 +1,96 @@
+# Task 7 Report — Multi-Page Portfolio Website
+
+**Name:** Purnima Tamang
+**Email:** purnimatamang0077@gmail.com
+**College:** Sagarmatha College of Science and Technology, Lalitpur
+**Program:** BCA — 4th Year
+**Task:** Task 7 — Multi-Page Portfolio Website
+**Domain:** Web Development
+
+---
+
+## Objective
+
+The task was to build a multi-page portfolio website with four pages — Home, About, Services, and Contact. All pages had to share the same navigation bar and footer, the site had to be responsive, and everything had to be written in plain HTML, CSS, and JavaScript without any framework.
+
+---
+
+## Tools Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts (Poppins and Open Sans)
+- VS Code
+- Git and GitHub
+- Chrome DevTools for testing
+
+---
+
+## Steps Performed
+
+**1. Planning**
+Decided on the page structure and colour scheme before writing any code. Chose a dark background with an orange accent colour.
+
+**2. Global CSS**
+Wrote style.css first — set up CSS variables, base reset, sticky navbar, footer, and all shared utility classes. Doing this before the HTML meant all pages were consistent from the start.
+
+**3. Home Page**
+Built the hero section with a dot-pattern background, heading, intro text, two buttons, and a stats row. Added four skill preview cards with a hover left-border animation and a CTA banner at the bottom.
+
+**4. About Page**
+Wrote the bio section with real project names (PawBliss and SewaSathi). Added skill progress bars that animate when scrolled into view using the IntersectionObserver API. Added education timeline and project cards at the bottom.
+
+**5. Services Page**
+Built six service cards — Database Management, Network Security, Web Development, Java, .NET, and WordPress/CMS. Added a How I Work section with four steps and a tech stack pill list.
+
+**6. Contact Page**
+Built a two-column layout with contact info on the left and a form on the right. JavaScript validation checks that all fields are filled and the email contains @ and a dot. Shows a success message and clears the form on valid submission.
+
+**7. Testing**
+Checked all navigation links, hamburger menu, skill bar animation, and form validation on desktop and mobile using Chrome DevTools.
+
+**8. Documentation**
+Took 6 screenshots, wrote README.md, and pushed everything with 6 structured Git commits.
+
+---
+
+## Screenshots
+
+### Home — Desktop
+![Home Desktop](screenshots/01-home-desktop.png)
+
+### Home — Mobile
+![Home Mobile](screenshots/02-home-mobile.png)
+
+### About — Skill Bars
+![Skill Bars](screenshots/03-about-skills.png)
+
+### Services — Cards
+![Service Cards](screenshots/04-services-cards.png)
+
+### Contact — Form
+![Contact Form](screenshots/05-contact-form.png)
+
+### Contact — Validation
+![Form Validation](screenshots/06-contact-form-validation.png)
+
+---
+
+## Demo Video
+
+https://youtu.be/UZnxUHFitvs
+
+---
+
+## Outcome
+
+A fully working 4-page portfolio site with real personal information, real academic projects, and skills from my BCA. The site is responsive, loads fast, and the contact form works with proper validation.
+
+The main thing I learned was how much you can do with just HTML, CSS, and a little JavaScript without needing any framework.
+
+---
+
+## GitHub Repository
+
+https://github.com/purnimm45/synet-task7-multipagewebsite-purnima
