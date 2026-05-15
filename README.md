@@ -1,4 +1,4 @@
-# synent-task7-multipage-website-purnimatamang
+# synent-task7-multipagewebsite-purnima
 
 **Name:** Purnima Tamang
 **Email:** purnimatamang0077@gmail.com
